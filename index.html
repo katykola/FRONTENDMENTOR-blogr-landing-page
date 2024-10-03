@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | [Blogr]</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <div class="navbar">
+        <img src="/images/logo.svg" alt="" />
+        <div class="menu">
+          <div class="menu-main">
+            <div class="menu-main_section">
+              <p class="menu-main_title">Product</p>
+              <div class="menu-main_items">
+                <p class="menu-main_item">Overview</p>
+                <p class="menu-main_item">Pricing</p>
+                <p class="menu-main_item">Marketplace</p>
+                <p class="menu-main_item">Features</p>
+                <p class="menu-main_item">Integrations</p>
+              </div>
+            </div>
+            <div class="menu-main_section">
+            <p class="menu-main_title">Company</p>
+              <div class="menu-main_items">
+                <p class="menu-main_item">About</p>
+                <p class="menu-main_item">Team</p>
+                <p class="menu-main_item">Blog</p>
+                <p class="menu-main_item">Careers</p>
+              </div>
+            </div>
+            <div class="menu-main_section">
+            <p class="menu-main_title">Connect</p>
+              <div class="menu-main_items">
+                <p class="menu-main_item">Contact</p>
+                <p class="menu-main_item">Newsletter</p>
+                <p class="menu-main_item">LinkedIn</p>
+              </div>
+            </div>
+          </div>
+          <div class="menu-signup">
+            <p class="menu-signup_item">Login</p>
+            <button class="menu-signup_button">Sign Up</button>
+          </div>
+        </div>
+        <img
+          class="navbar-hamburger"
+          id="hamburger"
+          src="/images/icon-hamburger.svg"
+          alt=""
+        />
+      </div>
+      <div class="header_content_container">
+        <div class="header_content">
+          <h1 class="header_title">
+            A modern<br class="header_title_space" />
+            publishing platform
+          </h1>
+          <p class="header_desc">
+            Grow your audience and build your online brand
+          </p>
+          <div class="header_buttons">
+            <button class="header_button header_button_main">
+              Start for Free
+            </button>
+            <button class="header_button">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <h2 class="h2_dark">Designed for the future</h2>
+      <div class="content-section_desktop content-section_desktop-top">
+        <div class="content-section-img_container">
+          <picture class="content-section_img-right">
+            <source
+              srcset="/images/illustration-editor-mobile.svg"
+              media="(max-width: 378px)"
+            />
+            <source
+              srcset="/images/illustration-editor-desktop.svg"
+              media="(min-width: 378px)"
+            />
+            <img
+              class="content-section_img"
+              src="/images/illustration-editor-desktop.svg"
+              alt=""
+            />
+          </picture>
+        </div>
+        <div class="content-section content-section_left">
+          <h3>Introducing an extensible editor</h3>
+          <p>
+            Blogr features an exceedingly intuitive interface which lets you
+            focus on one thing: creating content. The editor supports management
+            of multiple blogs and allows easy manipulation of embeds such as
+            images, videos, and Markdown. Extensibility with plugins and themes
+            provide easy ways to add functionality or change the looks of a
+            blog.
+          </p>
+          <h3>Robust content management</h3>
+          Flexible content management enables users to easily move through
+          posts. Increase the usability of your blog by adding customized
+          categories, sections, format, or flow. With this functionality, you’re
+          in full control.
+        </div>
+      </div>
+
+      <div class="content-section_background-desktop">
+        <div class="content-section_background-grid">
+          <img
+            class="content-section-background-img"
+            src="/images/illustration-phones.svg"
+            alt=""
+          />
+          <div class="content-section-background">
+            <div class="content-section">
+              <h2 class="h2_light">State of the Art Infrastructure</h2>
+              <p>
+                With reliability and speed in mind, worldwide data centers provide
+                the backbone for ultra-fast connectivity. This ensures your site
+                will load instantly, no matter where your readers are, keeping your
+                site competitive.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section_desktop content-section_desktop-bottom">
+        <picture class="content-section_img-left">
+          <source
+            srcset="/images/illustration-laptop-mobile.svg"
+            media="(max-width: 378px)"
+          />
+          <source
+            srcset="/images/illustration-laptop-desktop.svg"
+            media="(min-width: 378px)"
+          />
+          <img
+            class="content-section_img"
+            src="/images/illustration-laptop-desktop.svg"
+            alt=""
+          />
+        </picture>
+        <div class="content-section content-section_right">
+          <h3>Free, open, simple</h3>
+          <p>
+            Blogr is a free and open source application backed by a large
+            community of helpful developers. It supports features such as code
+            syntax highlighting, RSS feeds, social media integration, third-party
+            commenting tools, and works seamlessly with Google Analytics. The
+            architecture is clean and is relatively easy to learn.
+          </p>
+          <h3>Powerful tooling</h3>
+          <p>
+            Batteries included. We built a simple and straightforward CLI tool
+            that makes customization and deployment a breeze, but capable of
+            producing even the most complicated sites.
+          </p>
+        </div>
+            </div>
+      </div>
+
+    <div class="footer">
+
+      <div class="footer_grid">
+        <img src="/images/logo.svg" alt="" />
+        <div class="footer_column">
+          <p class="footer_title">Product</p>
+          <p class="footer_item">Overview</p>
+          <p class="footer_item">Pricing</p>
+          <p class="footer_item">Marketplace</p>
+          <p class="footer_item">Features</p>
+          <p class="footer_item">Integrations</p>
+        </div>
+        <div class="footer_column">
+          <p class="footer_title">Company</p>
+          <p class="footer_item">About</p>
+          <p class="footer_item">Team</p>
+          <p class="footer_item">Blog</p>
+          <p class="footer_item">Careers</p>
+        </div>
+        <div class="footer_column">
+          <p class="footer_title">Connect</p>
+          <p class="footer_item">Contact</p>
+          <p class="footer_item">Newsletter</p>
+          <p class="footer_item">LinkedIn</p>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
